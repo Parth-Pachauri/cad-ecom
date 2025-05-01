@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-  host: 'your-rds-endpoint',
+  host: 'ecommerce-db.cbko6wgy8i86.ap-south-1.rds.amazonaws.com',
   user: 'admin',
   password: 'prachitasrivastava',
   database: 'ecommerce'
